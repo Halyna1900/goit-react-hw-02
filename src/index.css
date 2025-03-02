@@ -1,0 +1,41 @@
+:root {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 1.1;
+}
+
+p {
+  font-size: 18px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ece2e2;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #ce64ff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto #8a2cb3;
+}
